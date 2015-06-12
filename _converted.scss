@@ -1,0 +1,24 @@
+
+// Converted Variables
+
+$body-fontFamily: $g-fontFamily !default;
+$body-fontSize: $g-fontSize !default;
+$body-fontColor: $g-mono-80 !default;
+$body-lineHeight: $g-lineHeight !default;
+$body-bgColor: #fff !default;
+
+// Custom Media Query Variables
+
+
+/*
+ * sircus-elements-body
+ ================================================== */
+body {
+  font-family: $body-fontFamily;
+  font-size: $body-fontSize;
+  line-height: $body-lineHeight;
+  color: $body-fontColor;
+  background-color: $body-bgColor;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
