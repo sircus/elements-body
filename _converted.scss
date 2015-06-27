@@ -3,9 +3,9 @@
 
 $body-fontFamily: $g-fontFamily !default;
 $body-fontSize: $g-fontSize !default;
-$body-fontColor: $g-mono-80 !default;
+$body-fontColor: $g-gray-80 !default;
 $body-lineHeight: $g-lineHeight !default;
-$body-bgColor: #fff !default;
+$body-fill: #fff !default;
 
 /*
  * sircus-elements-body
@@ -15,7 +15,7 @@ body {
   font-size: $body-fontSize;
   line-height: $body-lineHeight;
   color: $body-fontColor;
-  background-color: $body-bgColor;
+  background-color: $body-fill;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

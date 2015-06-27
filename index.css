@@ -1,9 +1,9 @@
 :root {
   --body-fontFamily: var(--g-fontFamily);
   --body-fontSize: var(--g-fontSize);
-  --body-fontColor: var(--g-mono-80);
+  --body-fontColor: var(--g-gray-80);
   --body-lineHeight: var(--g-lineHeight);
-  --body-bgColor: #fff;
+  --body-fill: #fff;
   }
 
 /*
@@ -14,7 +14,7 @@ body {
   font-size: var(--body-fontSize);
   line-height: var(--body-lineHeight);
   color: var(--body-fontColor);
-  background-color: var(--body-bgColor);
+  background-color: var(--body-fill);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
