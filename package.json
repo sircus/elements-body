@@ -1,9 +1,11 @@
 {
   "name": "sircus-elements-body",
-  "description": "Css base body element Module for Sircus.",
-  "version": "0.0.1",
+  "description": "CSS module for base styling of HTML body elements.",
+  "version": "0.1.0",
   "homepage": "http://sircus.github.io",
   "keywords": [
+    "sircus",
+    "elements",
     "scalable",
     "design",
     "css",
