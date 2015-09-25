@@ -1,11 +1,9 @@
-
-// Converted Variables
-
 $body-fontFamily: $g-fontFamily !default;
 $body-fontSize: $g-fontSize !default;
-$body-fontColor: $g-gray-80 !default;
+$body-color: #000 !default;
 $body-lineHeight: $g-lineHeight !default;
 $body-fill: #fff !default;
+$body-fontColor: $body-color !default;
 
 /*
  * sircus-elements-body
@@ -14,7 +12,7 @@ body {
   font-family: $body-fontFamily;
   font-size: $body-fontSize;
   line-height: $body-lineHeight;
-  color: $body-fontColor;
+  color: $body-color;
   background-color: $body-fill;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

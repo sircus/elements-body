@@ -1,10 +1,12 @@
 :root {
   --body-fontFamily: var(--g-fontFamily);
   --body-fontSize: var(--g-fontSize);
-  --body-fontColor: var(--g-gray-80);
+  --body-color: #000;
   --body-lineHeight: var(--g-lineHeight);
   --body-fill: #fff;
-  }
+
+  --body-fontColor: var(--body-color);
+}
 
 /*
  * sircus-elements-body
@@ -13,7 +15,7 @@ body {
   font-family: var(--body-fontFamily);
   font-size: var(--body-fontSize);
   line-height: var(--body-lineHeight);
-  color: var(--body-fontColor);
+  color: var(--body-color);
   background-color: var(--body-fill);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
